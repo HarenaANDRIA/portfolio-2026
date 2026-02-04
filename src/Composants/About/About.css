@@ -1,0 +1,271 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 100px 170px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.about-title {
+    width: 100%;
+    text-align: center;
+}
+
+.about-title h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 60px;
+    position: relative;
+    display: inline-block;
+}
+
+.about-title h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background: #CB3E3E;
+    border-radius: 2px;
+}
+
+.about-sections {
+    display: flex;
+    gap: 80px;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.about-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.about-para {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-para p {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #cccccc;
+}
+
+.about-achievements {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top: 40px;
+    border-top: 2px solid #333333;
+}
+
+.about-achievement {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    transition: transform 0.3s ease;
+}
+
+.about-achievement:hover {
+    transform: scale(1.05);
+}
+
+.about-achievement h1 {
+    font-size: 48px;
+    font-weight: 800;
+    background: #CB3E3E;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-achievement p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #cccccc;
+    letter-spacing: 0.5px;
+}
+
+.about-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-skill {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    transition: all 0.3s ease;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.about-skill:hover {
+    transform: translateX(10px);
+    background-color: rgba(203, 62, 62, 0.05);
+}
+
+.about-skill p {
+    min-width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.about-skill-bar-container {
+    flex: 1;
+    height: 8px;
+    background-color: #333333;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.about-skill-bar {
+    height: 100%;
+    border-radius: 10px;
+    background: #CB3E3E;
+    width: 0;
+    transition: width 1.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    box-shadow: 0 2px 10px rgba(203, 62, 62, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.about-skill-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, 
+        transparent, 
+        rgba(255, 255, 255, 0.2), 
+        transparent);
+    animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.about-skill:hover .about-skill-bar {
+    box-shadow: 0 4px 15px rgba(203, 62, 62, 0.5);
+}
+
+.about-skill-percentage {
+    min-width: 40px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+    color: #CB3E3E;
+    opacity: 0;
+    transform: translateX(-10px);
+    transition: all 0.3s ease 0.5s;
+}
+
+.about-skill.animated .about-skill-percentage {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+@media screen and (max-width: 1220px) {
+    .about {
+        padding: 80px 50px;
+    }
+    
+    .about-sections {
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about {
+        padding: 60px 30px;
+    }
+    
+    .about-title h1 {
+        font-size: 36px;
+    }
+    
+    .about-sections {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .about-para p {
+        font-size: 18px;
+    }
+    
+    .about-achievements {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .about-achievement h1 {
+        font-size: 40px;
+    }
+    
+    .about-skill {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .about-skill p {
+        min-width: auto;
+        font-size: 16px;
+    }
+    
+    .about-skill-bar-container {
+        width: 100%;
+    }
+    
+    .about-skill-percentage {
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .about {
+        padding: 40px 20px;
+    }
+    
+    .about-title h1 {
+        font-size: 28px;
+    }
+    
+    .about-para p {
+        font-size: 16px;
+    }
+}
