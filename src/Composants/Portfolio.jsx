@@ -328,7 +328,7 @@ function Contact() {
 
 export default function Portfolio() {
   return (
-    <div>
+    <div className="portfolio-wrapper">
       <Navbar />
       <Hero />
       <About />
