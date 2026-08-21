@@ -59,8 +59,8 @@ Je crée des expériences numériques propres, performantes et centrées sur l'u
 
 -  **Email :** [handriantovosoa@gmail.com](mailto:handriantovosoa@gmail.com)
 -  **Téléphone :** +261 34 94 964 65
--  **LinkedIn :** [Harena Andriantovosoa](https://linkedin.com/in/votre-profil) *(ajoutez le lien)*
--  **Facebook :** [Harena Andriantovosoa](https://facebook.com/votre-profil) *(ajoutez le lien)*
+-  **LinkedIn :** [Harena Andriantovosoa](https://www.linkedin.com/in/harena-andriantovosoa-294558301/) *(ajoutez le lien)*
+-  **Facebook :** [Harena Andriantovosoa](https://web.facebook.com/harena3010andriantovosoa) *(ajoutez le lien)*
 
 ---
 
