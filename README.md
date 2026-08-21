@@ -1,8 +1,72 @@
-# React + Vite
+# PORTFOLIO - Harena Andriantovosoa
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Développeur Fullstack & IA/ML passionné par l'innovation technologique au service de l'utilisateur.
 
-Currently, two official plugins are available:
+Je crée des expériences numériques propres, performantes et centrées sur l'utilisateur. Ce portfolio rassemble mes projets personnels et professionnels.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## À propos de moi
+
+Étudiant en **Électronique, Systèmes Informatiques et Intelligence Artificielle** à l'ISPM Antsobolo, je combine une solide formation technique avec une passion pour le développement de solutions intelligentes et innovantes.
+
+-  Actuellement à la recherche d'opportunités en développement Fullstack ou en IA/ML
+-  J'approfondis mes connaissances en Deep Learning et DevOps
+-  Intéressé par les projets alliant IA et applications pratiques
+
+---
+
+## 🛠️ Compétences techniques
+
+| Catégorie | Technologies |
+|-----------|--------------|
+| **Front-End** | React, Tailwind CSS, HTML5, CSS3 |
+| **Back-End** | Node.js, Python, PHP (Laravel) |
+| **Base de données** | PostgreSQL, MongoDB, MySQL |
+| **Outils & DevOps** | Git, Docker |
+| **Design** | Adobe XD, Photoshop |
+| **Bureautique** | Pack Office (Word, Excel, PowerPoint) |
+
+---
+
+## Expériences & Projets
+
+### IA PRS
+*Application d'intelligence artificielle pour l'automatisation de l'analyse des Plans de Passation des Marchés Publics*
+
+**Contexte :** Projet réalisé au sein du **MEF** (Ministère de l'Économie et des Finances).
+
+**Objectif :** Automatiser l'analyse des Plans de Passation des Marchés Publics pour optimiser les processus internes.
+
+**Technologies :** `Python` `PostgreSQL` `Angular` `Flutter`
+
+**Rôle :** [Précisez votre rôle : Développeur Fullstack ? Lead IA ?]
+
+---
+
+### Prediktor-Cursus
+*Solution de prédiction pour l'orientation des étudiants*
+
+**Description :** Une plateforme qui permet aux étudiants d'entrer leurs notes et reçoivent une prédiction de la filière ou spécialisation qui leur correspond le mieux.
+
+**Technologies :** `Python` `React JS` `Tailwind CSS`
+
+**Particularité :** Modèle ML entraîné sur des données académiques pour des recommandations personnalisées.
+
+---
+
+## Me contacter
+
+- 📧 **Email :** [handriantovosoa@gmail.com](mailto:handriantovosoa@gmail.com)
+- 📱 **Téléphone :** +261 34 94 964 65
+- 💼 **LinkedIn :** [Harena Andriantovosoa](https://linkedin.com/in/votre-profil) *(ajoutez le lien)*
+- 👤 **Facebook :** [Harena Andriantovosoa](https://facebook.com/votre-profil) *(ajoutez le lien)*
+
+---
+
+## Remerciements
+
+Merci d'avoir pris le temps de visiter mon portfolio !  
+N'hésitez pas à explorer mes projets et à me contacter pour toute collaboration, opportunité ou simple échange.
+
+---
