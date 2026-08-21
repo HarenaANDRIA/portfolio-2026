@@ -40,7 +40,7 @@ Je crée des expériences numériques propres, performantes et centrées sur l'u
 
 **Technologies :** `Python` `PostgreSQL` `Angular` `Flutter`
 
-**Rôle :** [Précisez votre rôle : Développeur Fullstack ? Lead IA ?]
+**Rôle :** Développeur Frontend / Backend, Lead IA
 
 ---
 
