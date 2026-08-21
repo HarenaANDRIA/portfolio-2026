@@ -16,7 +16,7 @@ Je crée des expériences numériques propres, performantes et centrées sur l'u
 
 ---
 
-## 🛠️ Compétences techniques
+## Compétences techniques
 
 | Catégorie | Technologies |
 |-----------|--------------|
@@ -57,10 +57,10 @@ Je crée des expériences numériques propres, performantes et centrées sur l'u
 
 ## Me contacter
 
-- 📧 **Email :** [handriantovosoa@gmail.com](mailto:handriantovosoa@gmail.com)
-- 📱 **Téléphone :** +261 34 94 964 65
-- 💼 **LinkedIn :** [Harena Andriantovosoa](https://linkedin.com/in/votre-profil) *(ajoutez le lien)*
-- 👤 **Facebook :** [Harena Andriantovosoa](https://facebook.com/votre-profil) *(ajoutez le lien)*
+-  **Email :** [handriantovosoa@gmail.com](mailto:handriantovosoa@gmail.com)
+-  **Téléphone :** +261 34 94 964 65
+-  **LinkedIn :** [Harena Andriantovosoa](https://linkedin.com/in/votre-profil) *(ajoutez le lien)*
+-  **Facebook :** [Harena Andriantovosoa](https://facebook.com/votre-profil) *(ajoutez le lien)*
 
 ---
 
